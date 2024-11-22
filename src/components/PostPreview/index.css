@@ -103,17 +103,3 @@
 		order: -1;
 	}
 }
-
-.PostPreview-Author {
-	font-weight: 700;
-}
-
-.PostPreview-Button {
-	margin-block: 5px;
-	font-family: var(--FontAccent-Family);
-	font-weight: 600;
-	font-size: 14px;
-	line-height: normal;
-	color: var(--ColorUI-BG);
-	background-color: var(--ColorUI-BG_is-secondary);
-}
