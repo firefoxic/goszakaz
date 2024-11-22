@@ -17,9 +17,6 @@ importers:
       '@firefoxic/stylelint-config':
         specifier: ^5.0.0
         version: 5.0.0(stylelint@16.10.0)
-      '@firefoxic/update-changelog':
-        specifier: ^1.0.0
-        version: 1.0.0
       '@firefoxic/utils':
         specifier: ^1.0.0
         version: 1.0.0
@@ -297,11 +294,6 @@ packages:
     peerDependencies:
       stylelint: ^16.10.0
 
-  '@firefoxic/update-changelog@1.0.0':
-    resolution: {integrity: sha512-vfT3FNjbF11l3ZbFPrVGgyk7RIF7USvS/e/JCqSsDDB8AxD9cT0/dmII27YX6mpQdK4E0bm2UDSY/TN8l6AKtw==}
-    engines: {node: ^20.12 || >=22.11}
-    hasBin: true
-
   '@firefoxic/utils@1.0.0':
     resolution: {integrity: sha512-p7NKfJfVJgc5TSfprjwcvMEsGgt5Vvp6lc/nCgmoQRtaOzdKHmkMey2C72Igj6ntkUj0SFyZOp8LJOrEo8U1bA==}
     engines: {node: ^20.12 || >=22.11}
@@ -510,8 +502,8 @@ packages:
   '@types/json-schema@7.0.15':
     resolution: {integrity: sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==}
 
-  '@types/node@22.9.0':
-    resolution: {integrity: sha512-vuyHg81vvWA1Z1ELfvLko2c8f34gyA0zaic0+Rllc5lbCnbSyuvb2Oxpm6TAUAC/2xZN3QGqxBNggD1nNR2AfQ==}
+  '@types/node@22.9.1':
+    resolution: {integrity: sha512-p8Yy/8sw1caA8CdRIQBG5tiLHmxtQKObCijiAa9Ez+d4+PRffM4054xbju0msf+cvhJpnFEeNjxmVT/0ipktrg==}
 
   '@types/vinyl@2.0.12':
     resolution: {integrity: sha512-Sr2fYMBUVGYq8kj3UthXFAu5UN6ZW+rYr4NACjZQJvHvj+c8lYv0CahmZ2P/r7iUkN44gGUBwqxZkrKXYPb7cw==}
@@ -716,8 +708,8 @@ packages:
   camel-case@4.1.2:
     resolution: {integrity: sha512-gxGWBrTT1JuMx6R+o5PTXMmUnhnVzLQ9SNutD4YqKtI6ap897t3tKECYla6gCWEkplXnlNybEkZg9GEGxKFCgw==}
 
-  caniuse-lite@1.0.30001680:
-    resolution: {integrity: sha512-rPQy70G6AGUMnbwS1z6Xg+RkHYPAi18ihs47GH0jcxIG7wArmPgY3XbS2sRdBbxJljp3thdT8BIqv9ccCypiPA==}
+  caniuse-lite@1.0.30001683:
+    resolution: {integrity: sha512-iqmNnThZ0n70mNwvxpEC2nBJ037ZHZUoBI5Gorh1Mw6IlEAZujEoU1tXA628iZfzm7R9FvFzxbfdgml82a3k8Q==}
 
   chalk@1.1.3:
     resolution: {integrity: sha512-U3lRVLMSlsCfjqYPbLyVv11M9CPW4I728d6TCKMAOJueEeB9/8o+eSsMnxPJD+Q+K909sdESg7C+tIkoH6on1A==}
@@ -958,8 +950,8 @@ packages:
   ee-first@1.1.1:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
 
-  electron-to-chromium@1.5.63:
-    resolution: {integrity: sha512-ddeXKuY9BHo/mw145axlyWjlJ1UBt4WK3AlvkT7W2AbqfRQoacVoRUCF6wL3uIx/8wT9oLKXzI+rFqHHscByaA==}
+  electron-to-chromium@1.5.64:
+    resolution: {integrity: sha512-IXEuxU+5ClW2IGEYFC2T7szbyVgehupCWQe5GNh+H065CD6U6IFN0s4KeAMFGNmQolRU4IV7zGBWSYMmZ8uuqQ==}
 
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
@@ -2562,8 +2554,6 @@ snapshots:
       stylelint-gamut: 1.3.4(stylelint@16.10.0)
       stylelint-plugin-logical-css: 1.2.1(stylelint@16.10.0)
 
-  '@firefoxic/update-changelog@1.0.0': {}
-
   '@firefoxic/utils@1.0.0': {}
 
   '@gulpjs/messages@1.1.0': {}
@@ -2721,7 +2711,7 @@ snapshots:
 
   '@types/cors@2.8.17':
     dependencies:
-      '@types/node': 22.9.0
+      '@types/node': 22.9.1
 
   '@types/estree@1.0.6': {}
 
@@ -2729,14 +2719,14 @@ snapshots:
 
   '@types/json-schema@7.0.15': {}
 
-  '@types/node@22.9.0':
+  '@types/node@22.9.1':
     dependencies:
       undici-types: 6.19.8
 
   '@types/vinyl@2.0.12':
     dependencies:
       '@types/expect': 1.20.4
-      '@types/node': 22.9.0
+      '@types/node': 22.9.1
 
   a-sync-waterfall@1.0.1: {}
 
@@ -2938,8 +2928,8 @@ snapshots:
 
   browserslist@4.24.2:
     dependencies:
-      caniuse-lite: 1.0.30001680
-      electron-to-chromium: 1.5.63
+      caniuse-lite: 1.0.30001683
+      electron-to-chromium: 1.5.64
       node-releases: 2.0.18
       update-browserslist-db: 1.1.1(browserslist@4.24.2)
 
@@ -2961,7 +2951,7 @@ snapshots:
       pascal-case: 3.1.2
       tslib: 2.8.1
 
-  caniuse-lite@1.0.30001680: {}
+  caniuse-lite@1.0.30001683: {}
 
   chalk@1.1.3:
     dependencies:
@@ -3185,7 +3175,7 @@ snapshots:
 
   ee-first@1.1.1: {}
 
-  electron-to-chromium@1.5.63: {}
+  electron-to-chromium@1.5.64: {}
 
   emoji-regex@8.0.0: {}
 
@@ -3215,7 +3205,7 @@ snapshots:
     dependencies:
       '@types/cookie': 0.4.1
       '@types/cors': 2.8.17
-      '@types/node': 22.9.0
+      '@types/node': 22.9.1
       accepts: 1.3.8
       base64id: 2.0.0
       cookie: 0.7.2
